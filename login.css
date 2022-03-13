@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.loginpage{
+    height: 80vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(210, 210, 210);
+    
+}
+.leftpart{
+    height: 50vh;
+    width: 50%;
+    
+}
+.rightpart{
+    height: 50vh;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: dimgrey;
+}
+.para{
+    width: 250px; 
+}
+.facebook{
+    color: rgb(0, 0, 205);
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: flex-start;
+
+
+}
+    
+.text , .password{
+    height: 40px;
+    width: 320px;
+    margin-top: 10px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border-width: 0.5px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    
+
+}
+.blue{
+    height: 40px;
+    width: 320px; 
+    background-color:blue;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.forgotten{
+    color: blue;
+    margin-bottom: 20px;
+        
+}
+.bottom{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.green{
+    background-color: green;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+    
+}
+.account{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+.end{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+
+}
+.page{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.animation{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    margin-top: 50px;
+    margin-left: 50px;
+    transform: rotate(45deg);
+}
+.footer{
+    background-color: black;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.thank{
+    color: white;
+}
